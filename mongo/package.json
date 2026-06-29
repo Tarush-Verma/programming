@@ -1,0 +1,28 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.8.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "dotenv": "^17.4.2",
+    "express": "~4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.1"
+  }
+}

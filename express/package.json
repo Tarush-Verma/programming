@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "github:types/express",
+    "@types/node": "^25.9.3",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.30.6",
+    "drizzle-orm": "^0.44.5",
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
+  }
+}
